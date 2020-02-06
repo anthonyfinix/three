@@ -1,5 +1,5 @@
-let mesh;
 export function createMeshes() {
+    let mesh;
     let geometry = new THREE.BoxBufferGeometry(2, 2, 2);
     let material = new THREE.MeshStandardMaterial({
         color: 0x333333, // darkgrey
